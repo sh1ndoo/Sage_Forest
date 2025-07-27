@@ -5,15 +5,14 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "01",
-                "icon_mode": "1",
-                "name": "01",
+                "name": "",
                 "description": "."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    130.75,
-                    -44
+                    130.625,
+                    -46.625
                 ]
             }
         },
@@ -21,14 +20,14 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "02",
-                "name": "02",
+                "name": "",
                 "description": "."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.5,
-                    -81.25
+                    174.625,
+                    -84.375
                 ]
             }
         },
@@ -42,8 +41,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    222.75,
-                    -59.5
+                    221.875,
+                    -62
                 ]
             }
         },
@@ -57,23 +56,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    224.25,
-                    -83.75
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "id": "08",
-                "name": "",
-                "description": "."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    166.25,
-                    -159.75
+                    223.625,
+                    -87.25
                 ]
             }
         },
@@ -87,8 +71,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    175.5,
-                    -177.5
+                    175.125,
+                    -180
                 ]
             }
         },
@@ -102,8 +86,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    136.5,
-                    -170.25
+                    135.875,
+                    -173.25
                 ]
             }
         },
@@ -118,7 +102,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     138.25,
-                    -181.75
+                    -184.875
                 ]
             }
         },
@@ -132,8 +116,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    109.75,
-                    -180
+                    109.375,
+                    -182.75
                 ]
             }
         },
@@ -147,8 +131,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    103,
-                    -186
+                    103.5,
+                    -189.75
                 ]
             }
         },
@@ -162,8 +146,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    88.5,
-                    -152.25
+                    89.5,
+                    -155.75
                 ]
             }
         },
@@ -177,8 +161,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    140.25,
-                    -108.5
+                    140.625,
+                    -111.375
                 ]
             }
         },
@@ -192,8 +176,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    140.25,
-                    -137.25
+                    139.625,
+                    -138.375
                 ]
             }
         },
@@ -207,8 +191,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.5,
-                    -99.75
+                    116.625,
+                    -103.5
                 ]
             }
         },
@@ -223,7 +207,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     97.5,
-                    -111.25
+                    -114.375
                 ]
             }
         },
@@ -238,7 +222,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     92.25,
-                    -90
+                    -93.625
                 ]
             }
         },
@@ -253,7 +237,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     65.75,
-                    -87
+                    -90.5
                 ]
             }
         },
@@ -268,7 +252,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     108.25,
-                    -203
+                    -206.25
                 ]
             }
         },
@@ -283,7 +267,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     87.5,
-                    -206.25
+                    -209.75
                 ]
             }
         },
@@ -297,8 +281,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    104,
-                    -223
+                    104.125,
+                    -226.75
                 ]
             }
         },
@@ -313,7 +297,7 @@ var cat_spots = {
                 "type": "Point",
                 "coordinates": [
                     54,
-                    -167.25
+                    -170.625
                 ]
             }
         },
@@ -327,8 +311,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    38.25,
-                    -186.25
+                    37.75,
+                    -190.25
                 ]
             }
         },
@@ -342,8 +326,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    23.75,
-                    -198
+                    23.25,
+                    -201.25
                 ]
             }
         },
@@ -357,8 +341,8 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    69,
-                    -207.5
+                    68.875,
+                    -210.375
                 ]
             }
         },
@@ -372,8 +356,19 @@ var cat_spots = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    113,
-                    -237.25
+                    113.25,
+                    -240.25
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    165.875,
+                    -162.625
                 ]
             }
         }
