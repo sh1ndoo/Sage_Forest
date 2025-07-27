@@ -46,6 +46,9 @@ interactive_map.addTileLayer('Ingame map', {
 // See `marker_logic/collectibles.js` for a really basic layer
 addCatSpots(interactive_map);
 addJarSpots(interactive_map);
+addBubbleCat(interactive_map);
+addCameraSpots(interactive_map);
+
 
 // Step 4:
 // Finalize the map after adding all layers.
