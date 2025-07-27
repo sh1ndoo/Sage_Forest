@@ -51,6 +51,7 @@ addCollectibles(interactive_map);
 // See `marker_logic/information.js` for more advanced technics
 addInformation(interactive_map);
 addCatSpots(interactive_map);
+addJarSpots(interactive_map);
 
 // Step 4:
 // Finalize the map after adding all layers.
