@@ -102,6 +102,7 @@ html, body, #map {
 
 .sidebar-image {
     width: 100%;
+    max-height: 40px;
 }
 
 /* || Place icons in the middle of the marker */
