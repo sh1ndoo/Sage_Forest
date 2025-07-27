@@ -258,17 +258,6 @@ var cat_spots = {
         },
         {
             "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    54,
-                    -167.25
-                ]
-            }
-        },
-        {
-            "type": "Feature",
             "properties": {
                 "id": "17",
                 "name": "",
