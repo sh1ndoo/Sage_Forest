@@ -10,9 +10,9 @@
 // Initialize the map with basic information
 var interactive_map = new InteractiveMap('map', {
     // This will limit automatic zooming to this zoom level
-    max_good_zoom: 6,
+    max_good_zoom: 4,
     // This is the max zoom the map will allow
-    max_map_zoom: 7,
+    max_map_zoom: 5,
     website_source: 'https://github.com/sh1ndoo/Sage_Forest',
     website_subdir: 'Sage_Forest',
     attribution: `
@@ -28,8 +28,8 @@ var interactive_map = new InteractiveMap('map', {
 // `./gdal2tiles.py -l -p raster -w none -z 3-5 full_map.jpg map_tiles`
 interactive_map.addTileLayer('Ingame map', {
     minNativeZoom: 2,
-    maxNativeZoom: 5,
-    attribution: 'Map of Tree og Savior'
+    maxNativeZoom: 4,
+    attribution: 'Map of Tree of Savior'
 });
 
 // Step 2.5 (optional):
