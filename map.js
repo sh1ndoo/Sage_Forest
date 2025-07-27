@@ -10,9 +10,9 @@
 // Initialize the map with basic information
 var interactive_map = new InteractiveMap('map', {
     // This will limit automatic zooming to this zoom level
-    max_good_zoom: 4,
+    max_good_zoom: 6,
     // This is the max zoom the map will allow
-    max_map_zoom: 5,
+    max_map_zoom: 7,
     website_source: 'https://github.com/sh1ndoo/TOSn',
     website_subdir: 'TOSn',
     attribution: `
@@ -28,7 +28,7 @@ var interactive_map = new InteractiveMap('map', {
 // `./gdal2tiles.py -l -p raster -w none -z 3-5 full_map.jpg map_tiles`
 interactive_map.addTileLayer('Ingame map', {
     minNativeZoom: 2,
-    maxNativeZoom: 4,
+    maxNativeZoom: 5,
     attribution: 'Map from'
 });
 
@@ -44,8 +44,6 @@ interactive_map.addTileLayer('Ingame map', {
 // Add at least one marker layer
 // The order matters - they will appear in this order in the sidebar and layer control
 // See `marker_logic/collectibles.js` for a really basic layer
-addCollectibles(interactive_map);
-addInformation(interactive_map);
 addCatSpots(interactive_map);
 addJarSpots(interactive_map);
 
