@@ -5,6 +5,7 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "01",
+                "icon_mode": "1",
                 "name": "01",
                 "description": "."
             },
