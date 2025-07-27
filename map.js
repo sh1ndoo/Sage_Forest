@@ -29,7 +29,7 @@ var interactive_map = new InteractiveMap('map', {
 interactive_map.addTileLayer('Ingame map', {
     minNativeZoom: 2,
     maxNativeZoom: 5,
-    attribution: 'Map from'
+    attribution: 'Map of Tree og Savior'
 });
 
 // Step 2.5 (optional):
