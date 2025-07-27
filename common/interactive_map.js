@@ -431,14 +431,6 @@ class InteractiveMap {
             position: 'bottom',
             button: website
         });
-
-        this.#sidebar.addPanel({
-            id: 'go-back',
-            tab: '<i class="fas fa-arrow-left"></i>',
-            position: 'bottom',
-            button: 'https://interactive-game-maps.github.io/'
-        });
-
         // make group visible on pane opening
         this.#sidebar.on('content', event => {
             if (event.id == 'attributions') return;
