@@ -6,7 +6,6 @@ function addCatSpots(map) {
         is_default: true,
         pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {
-                icon: Utils.getCustomIcon('fa-door-open'),
                 riseOnHover: true
             });
         }
