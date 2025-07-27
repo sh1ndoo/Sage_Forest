@@ -5,7 +5,7 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "01",
-                "name": "",
+                "name": "01",
                 "description": "."
             },
             "geometry": {
@@ -20,7 +20,7 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "02",
-                "name": "",
+                "name": "02",
                 "description": "."
             },
             "geometry": {
