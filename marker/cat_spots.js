@@ -5,7 +5,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "01",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -20,7 +19,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "02",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -35,7 +33,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "03",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -50,7 +47,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "04",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -65,7 +61,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "09",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -80,7 +75,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "13",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -95,7 +89,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "14",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -110,7 +103,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "15",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -125,7 +117,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "16",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -140,7 +131,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "25",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -155,7 +145,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "06",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -170,7 +159,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "07",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -185,7 +173,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "05",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -200,7 +187,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "10",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -215,7 +201,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "11",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -230,7 +215,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "12",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -245,7 +229,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "17",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -260,7 +243,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "18",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -275,7 +257,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "19",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -290,7 +271,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "22",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -305,7 +285,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "23",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -320,7 +299,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "24",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -335,7 +313,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "21",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -350,7 +327,6 @@ var cat_spots = {
             "type": "Feature",
             "properties": {
                 "id": "20",
-                "name": "",
                 "description": "."
             },
             "geometry": {
@@ -361,16 +337,5 @@ var cat_spots = {
                 ]
             }
         },
-        {
-            "type": "Feature",
-            "properties": {},
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    165.875,
-                    -162.625
-                ]
-            }
-        }
     ]
 }
