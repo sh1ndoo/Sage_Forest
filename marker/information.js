@@ -6,7 +6,8 @@ var information = {
             "properties": {
                 "id": "1",
                 "name": "Information 1",
-                "external_id": "/1920/1080"
+                "external_id": "/1920/1080",
+                "icon_mode": "1"
             },
             "geometry": {
                 "type": "Polygon",
