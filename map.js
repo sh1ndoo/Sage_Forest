@@ -13,8 +13,8 @@ var interactive_map = new InteractiveMap('map', {
     max_good_zoom: 6,
     // This is the max zoom the map will allow
     max_map_zoom: 7,
-    website_source: 'https://github.com/sh1ndoo/TOSn',
-    website_subdir: 'TOSn',
+    website_source: 'https://github.com/sh1ndoo/Sage_Forest',
+    website_subdir: 'Sage_Forest',
     attribution: `
     <li>This project uses sample images from <a href="https://picsum.photos/">picsum.photos</a></li>
 `
