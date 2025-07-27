@@ -153,6 +153,10 @@ html, body, #map {
 .leaflet-sidebar-header {
     position: sticky;
     top: 0px;
+    background-color: #7d6851;
+}
+.leaflet-sidebar-tabs > li.active, .leaflet-sidebar-tabs > ul > li.active {
+    background-color: #7d6851;
 }
 
 .leaflet-sidebar-content {
@@ -169,8 +173,7 @@ html, body, #map {
     height: 14px;
     width: 14px;
     position: absolute;
-    left: 69%;
-    top: 53%;
+    left: 95%;
     margin: 11px 0px 0px -12px;
     transform: rotateX(55deg);
     z-index: -2;
