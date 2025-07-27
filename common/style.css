@@ -208,6 +208,28 @@ html, body, #map {
     animation-delay: 0.1s;
 }
 
+.marker-cluster-small div {
+    background-color: rgba(125, 104, 81, 0.26);
+    border: color(srgb 0.4919 0.4087 0.318) solid;
+    border-width: 4px;
+}
+
+.marker-cluster div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 25px;
+    font: 20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: color(srgb 0.2442 0.1571 0.0618);
+    font-weight: 900;
+}
+
+.marker-cluster-small {
+    background-color: rgba(181, 226, 140, 0);
+}
+
 @keyframes pulsate_outer {
     0% {
         transform: scale(0.1, 0.1);
