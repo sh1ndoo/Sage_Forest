@@ -10,9 +10,9 @@
 // Initialize the map with basic information
 var interactive_map = new InteractiveMap('map', {
     // This will limit automatic zooming to this zoom level
-    max_good_zoom: 6,
+    max_good_zoom: 4,
     // This is the max zoom the map will allow
-    max_map_zoom: 8,
+    max_map_zoom: 5,
     website_source: 'https://github.com/sh1ndoo/TOSn',
     website_subdir: 'TOSn',
     attribution: `
@@ -45,10 +45,6 @@ interactive_map.addTileLayer('Ingame map', {
 // The order matters - they will appear in this order in the sidebar and layer control
 // See `marker_logic/collectibles.js` for a really basic layer
 addCollectibles(interactive_map);
-
-// Step 3.5 (optional):
-// Add more marker layer
-// See `marker_logic/information.js` for more advanced technics
 addInformation(interactive_map);
 addCatSpots(interactive_map);
 addJarSpots(interactive_map);
