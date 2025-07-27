@@ -1,45 +1,12 @@
-// Simple
-// Just a simple group of collectibles, trackable in the sidebar
-
 function addCatSpots(map) {
-
-    // New layer with id `collectibles` from geoJSON `collectibles`
     map.addInteractiveLayer('cat_spots', cat_spots, {
-
-        // The display name for this layer
         name: 'Cat spots',
-
-        // This layer should have a tab in the sidebar with a list for each feature ID
         create_checkbox: true,
-
-        // Each feature should have a popup
-        // This internally calls `getPopupMedia()` to associate an image or video
-        // See `map_utils.js` for an example
         create_feature_popup: true,
-
-        // This layer should be visible by default
         is_default: true,
-
-        // We don't have created a custom icon so let's use a generic one from Font Awesome
-        // Omitting this uses the group icon in `images/icons/${this.id}.png` by default
-        // This needs a html string or a function that return a html string
-        sidebar_icon_html: '<i class="fas fa-door-open"></i>',
-
-        // We don't have created a custom icon so we have to manually provide a marker
-        // Omitting this sets a marker with the group icon in `images/icons/${this.id}.png` by default
-        // This can include logic based on feature properties
-        // https://leafletjs.com/reference.html#geojson-pointtolayer
+        sidebar_icon_html: '<img src="data:image/jpeg;base64,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"></img>',
         pointToLayer: function (feature, latlng) {
-
-            // https://leafletjs.com/reference.html#marker
             return L.marker(latlng, {
-
-                // We don't have created a custom icon so let's use a generic one from Font Awesome
-                // This can take:
-                // * a Font Awesome `fa-` string
-                // * the group id (`this.id`) to take the `images/icons/${this.id}.png`
-                // * a max 2 char long string
-                // * nothing for a generic marker
                 icon: Utils.getCustomIcon('fa-door-open'),
                 riseOnHover: true
             });
