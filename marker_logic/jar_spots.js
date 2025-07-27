@@ -1,5 +1,5 @@
 function addJarSpots(map) {
-    map.addInteractiveLayer('cat_spots', cat_spots, {
+    map.addInteractiveLayer('jar_spots', jar_spots, {
         name: 'Jar spots',
         create_checkbox: true,
         create_feature_popup: true,
