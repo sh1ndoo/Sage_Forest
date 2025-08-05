@@ -381,7 +381,7 @@ class InteractiveMap {
             position: 'left'
         }).addTo(this.#map);
 
-        
+
         this.#sidebar.addPanel({
             id: 'home',
             tab: '<i class="fa-solid fa-house"></i>',
@@ -424,8 +424,15 @@ class InteractiveMap {
             position: 'bottom',
             button: 'https://sh1ndoo.github.io/Mutley_Port/'
         });
+        this.#sidebar.addPanel({
+            id: 'sapentia',
+            tab: '<i class="fa-solid fa-landmark"></i>',
+            title: 'Sapentia',
+            position: 'bottom',
+            button: 'https://sh1ndoo.github.io/Sapentia/'
+        });
 
-        
+
         this.#sidebar.addPanel({
             id: '',
             tab: '<i class="fa-solid fa-minus"></i>',
